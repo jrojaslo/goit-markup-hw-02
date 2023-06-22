@@ -46,14 +46,6 @@ html{
     color: #943e00;
 }
 
-.header-phone{
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 30px;
-    letter-spacing: 0.1em;
-    color: var(--main-title-color);
-}
-
 .header-btn{
     color: var(--main-title-color);
     font-size: 14PX;
