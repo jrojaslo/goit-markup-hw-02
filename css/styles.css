@@ -20,14 +20,52 @@ body{
 } */
 
 .link{
-    
+    /* float: left; */
+    color: black;
+    font-style: normal;
+    text-decoration: none;
+     
+}
+
+.link:active{
+    color: white;
+    background-color: #2196F3;
 }
 
 ul {
     list-style-type: none;
 }
 
-.btn-filter{
+.global-link {
+    margin: 10px 10px auto;
 
+}
+
+.box-products{
+    margin-top: 3px;
+    padding-block: 30px;
+    float: bottom;
+}
+
+.btn-filter{
+    float:left;
+    margin: 0 0.5% auto;
+    border-color: transparent;
+    border-radius: 2.5px 2.5px;
+    
+}
+
+.logo{
+    color: #2196F3;
+}
+
+#footer{
+    color: #FFFFFF ;
+    background-color: #2F303A;
+    text-decoration: none;
+}
+
+a[href="mailto"]{
+    font-style: normal;
 
 }
