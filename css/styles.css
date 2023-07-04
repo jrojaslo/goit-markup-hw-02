@@ -1,7 +1,11 @@
+*{
+    font-style: normal;
+}
+
 body{
     color: #212121;
-    font-family: Roboto; 
-    ;
+    font-family: Roboto,Raleway, sans-serif; 
+    
 }
 
 .btn-filter:hover{
@@ -19,7 +23,7 @@ body{
     
 } */
 
-.link{
+.link:link{
     /* float: left; */
     color: black;
     font-style: normal;
@@ -27,7 +31,11 @@ body{
      
 }
 
-.link:active{
+.link:visited, .button:visited{
+    color: ;
+}
+
+.link:active, .button:active{
     color: white;
     background-color: #2196F3;
 }
