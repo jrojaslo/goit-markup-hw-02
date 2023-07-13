@@ -2,15 +2,38 @@
 
 .logo{
     text-decoration: none;
-    font-style: normal;
-    font-family: Raleway, sans-serif;
     color: #2196F3;
+    font-family: Raleway;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
 }
 
 body{
     margin-left: 10px;
     color: #212121;
     font-family: Roboto, sans-serif; 
+}
+
+header{
+    flex-direction: row;
+    background-color: #FFFFFF;
+    color: black
+}
+
+a[href^="por"]{
+    color: #2196F3;
+}
+
+nav > ul > li{
+    color: #212121;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
 }
 
 .btn-filter:hover{
@@ -45,12 +68,6 @@ ul {
     display: flex;
 }
 
-.menu{
-    flex: 1 1 auto;
-    justify-content: flex-start;
-    margin: 5px;
-}
-
 .box-products{
     border: 1px solid #EEE;
     background: #FFF;
@@ -67,6 +84,9 @@ ul {
     margin: 0 0.5% auto;
     border-color: transparent;
     border-radius: 2.5px 2.5px;
+    flex: 1 1 auto;
+    justify-content: flex-start;
+    margin: 5px;
 }
 
 .btn-filter:active{
@@ -77,12 +97,12 @@ ul {
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
-footer{
+#footer{
+    color: #FFFFFF;
+    background: #2F303A;
     width: fixed 1600px;
     height: 252px;
-    background-color: #2F303A;
-    
-
+    flex-shrink: 0;
 }
 
 #address{
