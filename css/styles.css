@@ -100,7 +100,7 @@ ul {
 #footer{
     color: #FFFFFF;
     background: #2F303A;
-    width: fixed 1600px;
+    width: fixed auto;
     height: 252px;
     flex-shrink: 0;
 }
